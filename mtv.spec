@@ -20,7 +20,7 @@ plugin), can play from file, pipe, network URL, or Video CD. It's
 shareware/evaluation version.
 
 %description -l pl
-MpegTV Player (mtv) jest programowym odwarzaczem d¼wiêku i obrazu
+MpegTV Player (mtv) jest programowym odtwarzaczem d¼wiêku i obrazu
 MPEG-1 oraz Video CD z graficznym interfejsem u¿ytkownika. Obs³uguje
 tryb pe³noekranowy (poprzez wtyczkê), mo¿e odtwarzaæ z pliku, rurki,
 sieci lub Video CD. To jest wersja shareware do wypróbowania.
