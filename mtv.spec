@@ -7,6 +7,7 @@ License:	Shareware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
 ExclusiveArch:	%{ix86}
 Source0:	ftp://ftp.mpegtv.com/pub/mpeg/mpegtv/player/x86-unknown-linux-glibc2.1/packages/TGZ/%{name}-%{version}.tar.gz
+# Source0-md5:	7025d5ed144cf9ad63e6d909a7d9a877
 NoSource:	0
 URL:		http://www.mpegtv.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
