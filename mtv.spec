@@ -5,8 +5,6 @@ Version:	1.2.5
 Release:	1
 License:	Shareware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 ExclusiveArch:	%{ix86}
 Source0:	ftp://ftp.mpegtv.com/pub/mpeg/mpegtv/player/x86-unknown-linux-glibc2.1/packages/TGZ/%{name}-%{version}.tar.gz
 NoSource:	0
@@ -34,8 +32,6 @@ Summary:	MPEG Video+Audio and Video CD command-line player
 Summary(pl):	Odtwarzacz MPEG Video+Audio i Video CD z linii poleceñ
 License:	Freeware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Requires:	XFree86-libs
 
 %description -n mtvp
@@ -54,8 +50,6 @@ Summary:	MPEG Video+Audio and Video CD player - fullscreen plugin
 Summary(pl):	Odtwarzacz MPEG Video+Audio i Video CD - wtyczka trybu pe³noekranowego
 License:	Freeware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Requires:	mtvp = %{version}
 Requires:	SDL >= 1.2.0
 
