@@ -12,8 +12,6 @@ URL:		http://www.mpegtv.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	mtvp = %{version}
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		/usr/X11R6/man
 
 %description
 MpegTV Player (mtv) is a realtime software MPEG-1 Video+Audio Player
