@@ -83,8 +83,6 @@ install mtv mtvp $RPM_BUILD_ROOT%{_bindir}
 install mtv.1 $RPM_BUILD_ROOT%{_mandir}/man1
 install voh_sdl.so $RPM_BUILD_ROOT%{_libdir}/mtvp/voh
 
-gzip -9nf COPYRIGHT README LICENSE README-Fullscreen
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -95,7 +93,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n mtvp
 %defattr(644,root,root,755)
-%doc *.gz release-notes.html
+%doc COPYRIGHT README LICENSE README-Fullscreen release-notes.html
 %attr(755,root,root) %{_bindir}/mtvp
 
 %files -n mtvp-fullscreen
