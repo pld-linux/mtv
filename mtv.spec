@@ -6,7 +6,7 @@ Release:	1
 License:	Shareware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp.mpegtv.com/pub/mpeg/mpegtv/player/x86-unknown-linux-glibc2.1/packages/TGZ/%{name}-%{version}.tar.gz
-# Source0-md5:	7025d5ed144cf9ad63e6d909a7d9a877
+# NoSource0-md5: 7025d5ed144cf9ad63e6d909a7d9a877
 NoSource:	0
 URL:		http://www.mpegtv.com/
 Requires:	mtvp = %{version}
@@ -69,7 +69,7 @@ trybie pe³noekranowym.
 sed 's@libSDL-1\.1@libSDL-1.2@' voh_sdl.so > voh_sdl.so.new
 mv -f voh_sdl.so.new voh_sdl.so
 for f in mtv mtvp ; do
-	sed 's@/usr/local/lib/mtvp/voh/@/usr/X11R6/lib/mtvp/voh/@' $f > $f.new
+	sed 's@/usr/local/lib/mtvp/voh/@/usr/./././lib/mtvp/voh/@' $f > $f.new
 	mv -f $f.new $f
 done
 
