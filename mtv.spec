@@ -1,5 +1,5 @@
 Summary:	MPEG Video+Audio and Video CD Player with GUI
-Summary(pl):	Odtwarzacz MPEG Video+Audio i Video CD z GUI
+Summary(pl.UTF-8):   Odtwarzacz MPEG Video+Audio i Video CD z GUI
 Name:		mtv
 Version:	1.2.5
 Release:	1
@@ -19,15 +19,15 @@ and VCD Player with GUI. It supports full-screen mode (through
 plugin), can play from file, pipe, network URL, or Video CD. It's
 shareware/evaluation version.
 
-%description -l pl
-MpegTV Player (mtv) jest programowym odtwarzaczem d¼wiêku i obrazu
-MPEG-1 oraz Video CD z graficznym interfejsem u¿ytkownika. Obs³uguje
-tryb pe³noekranowy (poprzez wtyczkê), mo¿e odtwarzaæ z pliku, rurki,
-sieci lub Video CD. To jest wersja shareware do wypróbowania.
+%description -l pl.UTF-8
+MpegTV Player (mtv) jest programowym odtwarzaczem dÅºwiÄ™ku i obrazu
+MPEG-1 oraz Video CD z graficznym interfejsem uÅ¼ytkownika. ObsÅ‚uguje
+tryb peÅ‚noekranowy (poprzez wtyczkÄ™), moÅ¼e odtwarzaÄ‡ z pliku, rurki,
+sieci lub Video CD. To jest wersja shareware do wyprÃ³bowania.
 
 %package -n mtvp
 Summary:	MPEG Video+Audio and Video CD command-line player
-Summary(pl):	Odtwarzacz MPEG Video+Audio i Video CD z linii poleceñ
+Summary(pl.UTF-8):   Odtwarzacz MPEG Video+Audio i Video CD z linii poleceÅ„
 License:	Freeware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
 Requires:	XFree86-libs
@@ -37,15 +37,15 @@ MpegTV Player (mtvp) is a realtime software MPEG-1 Video+Audio Player
 and VCD command-line Player. It supports full-screen mode (through
 plugin), can play from file, pipe, network URL, or Video CD.
 
-%description -n mtvp -l pl
-MpegTV Player (mtvp) jest programowym odtwarzaczem d¼wiêku i obrazu
-MPEG-1 oraz Video CD obs³ugiwanym z linii poleceñ. Obs³uguje tryb
-pe³noekranowy (poprzez wtyczkê), mo¿e odtwarzaæ z pliku, rurki, sieci
+%description -n mtvp -l pl.UTF-8
+MpegTV Player (mtvp) jest programowym odtwarzaczem dÅºwiÄ™ku i obrazu
+MPEG-1 oraz Video CD obsÅ‚ugiwanym z linii poleceÅ„. ObsÅ‚uguje tryb
+peÅ‚noekranowy (poprzez wtyczkÄ™), moÅ¼e odtwarzaÄ‡ z pliku, rurki, sieci
 lub Video CD.
 
 %package -n mtvp-fullscreen
 Summary:	MPEG Video+Audio and Video CD player - fullscreen plugin
-Summary(pl):	Odtwarzacz MPEG Video+Audio i Video CD - wtyczka trybu pe³noekranowego
+Summary(pl.UTF-8):   Odtwarzacz MPEG Video+Audio i Video CD - wtyczka trybu peÅ‚noekranowego
 License:	Freeware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
 Requires:	mtvp = %{version}
@@ -54,9 +54,9 @@ Requires:	SDL >= 1.2.0
 %description -n mtvp-fullscreen
 This package contains MpegTV fullscreen plugin.
 
-%description -n mtvp-fullscreen -l pl
-Ten pakiet zawiera wtyczkê do MpegTV pozwalaj±c± na odtwarzanie w
-trybie pe³noekranowym.
+%description -n mtvp-fullscreen -l pl.UTF-8
+Ten pakiet zawiera wtyczkÄ™ do MpegTV pozwalajÄ…cÄ… na odtwarzanie w
+trybie peÅ‚noekranowym.
 
 %prep
 %setup -q -n mtv
