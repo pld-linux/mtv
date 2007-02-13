@@ -1,5 +1,5 @@
 Summary:	MPEG Video+Audio and Video CD Player with GUI
-Summary(pl.UTF-8):   Odtwarzacz MPEG Video+Audio i Video CD z GUI
+Summary(pl.UTF-8):	Odtwarzacz MPEG Video+Audio i Video CD z GUI
 Name:		mtv
 Version:	1.2.5
 Release:	1
@@ -27,7 +27,7 @@ sieci lub Video CD. To jest wersja shareware do wypróbowania.
 
 %package -n mtvp
 Summary:	MPEG Video+Audio and Video CD command-line player
-Summary(pl.UTF-8):   Odtwarzacz MPEG Video+Audio i Video CD z linii poleceń
+Summary(pl.UTF-8):	Odtwarzacz MPEG Video+Audio i Video CD z linii poleceń
 License:	Freeware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
 Requires:	XFree86-libs
@@ -45,7 +45,7 @@ lub Video CD.
 
 %package -n mtvp-fullscreen
 Summary:	MPEG Video+Audio and Video CD player - fullscreen plugin
-Summary(pl.UTF-8):   Odtwarzacz MPEG Video+Audio i Video CD - wtyczka trybu pełnoekranowego
+Summary(pl.UTF-8):	Odtwarzacz MPEG Video+Audio i Video CD - wtyczka trybu pełnoekranowego
 License:	Freeware/Commercial; not distributable
 Group:		X11/Applications/Multimedia
 Requires:	mtvp = %{version}
